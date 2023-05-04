@@ -1,0 +1,26 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "A quick website to host examples and explanations I regularly need",
+  "main": "index.js",
+  "scripts": {
+    "lint": "markdownlint ./docs/**/*.md",
+    "start": "docsify serve ./docs --port 3200",
+    "test": "echo 'no tests yet'"
+  },
+  "keywords": [
+    "docsify",
+    "examples",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Naomi Carrigan",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "docsify-cli": "4.4.4"
+  },
+  "devDependencies": {
+    "markdownlint": "0.28.2",
+    "markdownlint-cli": "0.34.0"
+  }
+}
